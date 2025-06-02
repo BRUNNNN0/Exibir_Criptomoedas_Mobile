@@ -46,26 +46,25 @@ O usuário pode buscar qualquer criptomoeda:
 - O usuário pode usar o pull-to-refresh para atualizar as moedas manualmente.
 
 
-
 ### Imagens e explicação da Aplicação 
 
 ## Tela Inicial com Criptomoedas
 
  Ao executar o aplicativo ele automaticamente já faz o GET na API e retorna as moedas, caso falhe na requisição vale a pena tentar executar o pull-to-refresh. Na tela inicial, você vai poder visualizar as principais criptomoedas e seus valores tanto em US quanto em BRL.
 
-
+![Screenshot_2025-06-02-14-57-22-421_com example app_criptomoeda](https://github.com/user-attachments/assets/c24cb639-afe7-4d9e-8333-50bc745a989a)
 
 ## Detalhes da Moeda Selecionada
 
 Clicando em um dos card, a aplicação irá mostrar uma subtela com as informações adicionais da moeda.
 
-
+![Screenshot_2025-06-02-14-58-03-524_com example app_criptomoeda](https://github.com/user-attachments/assets/ffe3e0af-d5dd-4cc6-a029-378e55fcbc34)
 
 ## Busca de Criptomoedas
 
 Caso queira procurar moedas específicas, digite a sigla da moeda no campo de busca, não precisa ser necessariamente em letras maiúsculas, mas as siglas precisam estar separadas por vírgula e pressione o botão "BUSCA".
 
-
+![Screenshot_2025-06-02-14-58-42-562_com example app_criptomoeda](https://github.com/user-attachments/assets/d2038fc0-3a4a-4865-a5e0-73e406458405)
 
 
 ### Como Executar
@@ -74,6 +73,10 @@ Caso queira procurar moedas específicas, digite a sigla da moeda no campo de bu
 
 A única configuração para a execução é colocar o token que o site da Coin Market Cap fornece, como eles não dão necessariamente um login e te passam o token, então fiz algo manual. Caso o meu token não esteja funcionando, basta seguir as imagens abaixo: 
 
+![Screenshot 2025-06-02 153537](https://github.com/user-attachments/assets/aab423a0-98b9-42fc-b67b-b5b3cb8855e8)
+![Screenshot 2025-06-02 153655](https://github.com/user-attachments/assets/b5ba12b9-512e-413c-b706-696486d00afd)
+
+
 ## Inserindo o Token
 
 com o token copiado é só acessar a pasta do projeto:
@@ -81,6 +84,8 @@ com o token copiado é só acessar a pasta do projeto:
 app_criptomoeda -> lib -> configs -> environment_helper.dart 
 
 colocar seu token na linha 21 -> final String apiKey = 'Sua API key';
+
+![image](https://github.com/user-attachments/assets/ff32cb6e-abfa-418f-a79d-feedd422bf68)
 
 
 ```bash
