@@ -38,7 +38,7 @@ O usuário pode buscar qualquer criptomoeda:
 
 - Digite siglas separadas por vírgula (ex: BTC, ETH, ADA) no campo de busca.
 - Pressione o botão "BUSCA".
-- Caso o campo esteja vazio, o app irá ordenar as moedas em ordem alfabética.
+- Caso o campo esteja vazio, o app irá ordenar as moedas em ordem alfabética pelas siglas.
 
 ### 4. Atualização dos Dados
 
